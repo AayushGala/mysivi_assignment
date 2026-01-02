@@ -27,7 +27,7 @@ A secure, role-based task management API built with Django and Django REST Frame
 
 2. **Install Dependencies**:
    ```bash
-   pip install django djangorestframework django-filter markdown
+   pip install -r requirements.txt
    ```
 
 3. **Run Migrations**:
@@ -35,10 +35,12 @@ A secure, role-based task management API built with Django and Django REST Frame
    python3 manage.py migrate
    ```
 
-3. **Run Server**:
+4. **Run Server**:
    ```bash
    python3 manage.py runserver
    ```
+
+I have hardcoded the redis url in settings.py. I am using free Redis Cloud for this project.
 
 ## API Usage
 
